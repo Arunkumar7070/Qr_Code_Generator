@@ -32,3 +32,10 @@
         <pre><code>npm run dev</code></pre>
     </li>
 </ol>
+<img width="1435" alt="Screenshot 2025-02-16 at 10 37 29 PM" src="https://github.com/user-attachments/assets/fbcafe81-aeff-4ab4-8246-ab2c8cf55fc7" />
+<img width="1377" alt="image" src="https://github.com/user-attachments/assets/c19f7c34-c393-4370-9c6f-af15e97b71c1" />
+<img width="301" alt="image" src="https://github.com/user-attachments/assets/7384e3f0-8097-457b-b75a-7a1a89a36022" />
+
+
+
+
