@@ -4,17 +4,27 @@ import React, { useState } from 'react'
 
 export const QrCode = () => {
   const [img,setImg]=useState("qrcode.png")
-  function generateQrCode(){
-    setImg("qrcode.png")
-    
+  const [loading,setloading]=useState(false)
+  async function generateQrCode(){
+    setloading(true)
+    try {
+      
+    }catch(error){;
+      
+    }
+    finally{
+      setloading(false)
+    }
+
   }
   function downloadQrCode(){
-    
+    setloading(false)
   }
   return (
     <div className='app_container'>
       <h1>OR CODE GENERATOR</h1>
-      <img src={img} className='qr_code_image'></img>
+      {img && <img src={img} className='qr_code_image'/>}
+      {loading && <p>please wait ...</p>}
       <div>
         <label htmlFor='dataInput' className='input_label'>
           Data for QR code
