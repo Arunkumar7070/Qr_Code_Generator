@@ -23,7 +23,7 @@
         <pre><code>git clone https://github.com/Arunkumar7070/Qr_Code_Generator</code></pre>
     </li>
     <li>Navigate to the project folder:
-        <pre><code>cd Qc code generator</code></pre>
+        <pre><code>cd Qr code generator</code></pre>
     </li>
     <li>Install dependencies:
         <pre><code>npm install</code></pre>
